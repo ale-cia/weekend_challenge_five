@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <title>Real Estate Listings</title>
+    <script src="/vendors/angular.min.js"></script>
+    <script src="/scripts/client.js"></script>
+    <script type="text/javascript" src="/controllers/listings.controller.js"></script>
+    <script type="text/javascript" src="/controllers/rentals.controller.js"></script>
+    <!-- <script type="text/javascript" src="/services/listings.services.js"></script>
+    <script type="text/javascript" src="/services/rentals.service.js"></script>       -->
 </head>
-   <body>
+   <body ng-app="PropertiesApp">
       <h1>Real Estate Listings</h1> 
+      <div>
+        <ul>
+            <li><a href="#!">Home</a></li>
+            <li><a href="#!listings">Listings</a></li>
+            <li><a href="#!rentals">Rentals</a></li>
+        </ul>
+    </div>
 
-</body>
+  <ng-view></ng-view>
+ </body>
 </html>
