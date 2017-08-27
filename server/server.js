@@ -3,6 +3,7 @@ var app = express();
 var bodyParser = require('body-parser');
 var path = require('path');
 var index = require('./routes/index.js');
+var listings = require('./routes/listings.js');
 var rentals = require('./routes/rentals.js');
 
 var mongoose = require('mongoose');
@@ -13,7 +14,8 @@ app.use(bodyParser.json()); // needed for angular requests
 
 /** ---------- EXPRESS ROUTES ---------- **/
 app.use('/', index);
-// app.use('/', );
+app.use('/listings', listings);
+app.use('/rentals', rentals);
 
 
 /** MONGOOSE CONNECTION **/

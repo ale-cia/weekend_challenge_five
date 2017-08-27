@@ -5,10 +5,13 @@
     <script src="/vendors/angular.min.js"></script>    
     <script src="vendors/angular-route.js"></script>    
     <script src="/scripts/client.js"></script>
-    <script type="text/javascript" src="/controllers/listings.controller.js"></script>
-    <script type="text/javascript" src="/controllers/rentals.controller.js"></script>
-    <!-- <script type="text/javascript" src="/services/listings.services.js"></script>
-    <script type="text/javascript" src="/services/rentals.service.js"></script>       -->
+    <script type="text/javascript" src="scripts/controllers/listings.controller.js"></script>
+    <script type="text/javascript" src="scripts/controllers/rentals.controller.js"></script>
+    <script type="text/javascript" src="scripts/services/listings.service.js"></script>
+    <script type="text/javascript" src="scripts/services/rentals.service.js"></script> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+    <!-- <link rel="stylesheet" type="text/css" href="public/views/realestate.css"> -->
+    
 </head>
    <body ng-app="PropertiesApp">
       <h1>Real Estate Listings</h1> 
@@ -19,7 +22,6 @@
             <li><a href="#!rentals">Rentals</a></li>
         </ul>
     </div>
-
   <ng-view></ng-view>
  </body>
 </html>

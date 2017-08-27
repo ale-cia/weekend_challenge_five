@@ -1,1 +1,22 @@
 <h2>Listings page</h2>
+
+<!-- {{ vm }} -->
+
+<div>
+   <table  >
+        <tr>
+            <th>For Sale</th>
+            <th>Sq Ft</th>
+            <th>City</th>     
+        </tr>
+        <tr ng-repeat="listing in vm.listings.list">
+            <!-- <td>{{ listing }}</td> -->
+            <td>{{ listing.cost }}</td>
+            <td>{{ listing.sqft }}</td>
+            <td>{{ listing.city}}</td>
+            
+            
+            
+        </tr>
+    </table>
+</div>

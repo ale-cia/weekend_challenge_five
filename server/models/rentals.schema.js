@@ -8,4 +8,4 @@ var rentalsSchema = new Schema({
 });
 
 // export our model
-module.exports = mongoose.model('Rentals', rentalsSchema);
+module.exports = mongoose.model('rentals', rentalsSchema);

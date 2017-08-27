@@ -7,4 +7,4 @@ var listings = new Schema({
     city: { type: String, requried: true, unique: true}    
 });
 
-module.exports = mongoose.model('Listings', listingsSchema);
+module.exports = mongoose.model('listings', listings);
