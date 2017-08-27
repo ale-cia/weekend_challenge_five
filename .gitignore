@@ -1,4 +1,7 @@
-node_modules
+.DS_Store 
 .idea/
+*.log
+*.logs
+node_modules
 npm-debug.log
 code.txt
