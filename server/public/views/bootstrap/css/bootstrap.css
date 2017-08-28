@@ -12,6 +12,16 @@ html {
 body {
   margin: 0;
 }
+
+/*My CSS*/
+#links {
+  list-style: none;
+}
+
+#headers {
+  font-size: 20px;
+}
+
 article,
 aside,
 details,

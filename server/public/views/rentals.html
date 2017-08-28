@@ -1,20 +1,22 @@
-<h2>For Rent</h2>
-
-<div>
-        <table  >
-             <tr>
-                 <th>For Rent</th>
-                 <th>Sq Ft</th>
-                 <th>City</th>  
-             </tr>
-             <tr ng-repeat="rental in vm.rentals.list">
-                 <!-- <td>{{ listing }}</td> -->
-                 <td>${{ rental.rent }}</td>
-                 <td>{{ rental.sqft }}</td>
-                 <td>{{ rental.city}}</td>
-                 
-                 
-                 
-             </tr>
-         </table>
-     </div>
+<!-- <h2>For Rent</h2> -->
+<div class="container">
+   <table class="table table-striped">
+        <thead>
+          <tr id="headers">
+            <!-- <th>#</th> -->
+            <th>City</th>
+            <th>Sq ft</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="rental in vm.rentals.list">
+            <!-- <th scope="row">1</th> -->
+            <!-- <td>{{ rental }}</td> -->
+            <td>{{ rental.city }}</td>
+            <td>{{ rental.sqft }}</td>            
+            <td>${{ rental.rent }}</td>  
+          </tr>
+        </tbody>
+      </table>
+    </div>
