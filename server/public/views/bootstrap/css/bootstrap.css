@@ -13,7 +13,16 @@ body {
   margin: 0;
 }
 
-/*My CSS*/
+/******** My CSS ***********/
+.nav-link {
+  padding-right: 20px;
+  text-align: center;
+}
+
+/* #home-nav{
+  padding-left: 625px;
+} */
+
 #links {
   list-style: none;
 }
@@ -30,6 +39,7 @@ body {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 #footer {
@@ -42,6 +52,9 @@ body {
   padding-bottom: 25px;
   text-align: center;
 }
+
+/******** My CSS Ends***********/
+
 
 article,
 aside,
