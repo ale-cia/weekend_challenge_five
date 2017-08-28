@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;  
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -18,8 +18,29 @@ body {
   list-style: none;
 }
 
+.jumbotron {
+  background-color: #000;
+  text-align: center;
+}
+
 #headers {
   font-size: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+#footer {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#footer-home {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  text-align: center;
 }
 
 article,
