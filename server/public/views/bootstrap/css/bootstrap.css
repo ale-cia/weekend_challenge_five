@@ -29,6 +29,7 @@ body {
 
 .jumbotron {
   background-color: #000;
+  /* border-radius: 5px; */
   text-align: center;
 }
 
