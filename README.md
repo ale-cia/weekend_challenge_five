@@ -31,19 +31,11 @@ Real Estate Full Stack App
 - [] Create table
 
 
-
-
 ## server.js
 
 - [x] Setup server.js
 - [x] Verify server is running
 
 ## client.js
-- [] Use Angular
-- [] Create GET requests 
-
-
-
-## 
-- [] 
-
+- [x] Use Angular
+- [x] Create GET requests 
